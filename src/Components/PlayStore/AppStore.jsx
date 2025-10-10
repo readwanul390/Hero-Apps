@@ -32,7 +32,7 @@ function AppStore() {
                     <FaDownload className="mr-1" /> {app.downloads}
                   </button>
                   <button className="btn bg-[#FFF0E1] text-[#FF8811]">
-                    <FaStar className="mr-1" /> {app.rating}
+                    <FaStar className="mr-1" /> {app.ratingAvg}
                   </button>
                 </div>
               </div>

@@ -7,14 +7,28 @@ import "react-toastify/dist/ReactToastify.css";
 import Footer from "../../components/Footer/Footer";
 
 
+const Loading = () => (
+  <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-30 z-50">
+    <div className="w-16 h-16 border-4 border-blue-600 border-t-transparent border-solid rounded-full animate-spin"></div>
+  </div>
+);
+
 function MyInstallation() {
   const [installedApps, setInstalledApps] = useState([]);
-  const [sortOrder, setSortOrder] = useState("none"); // Default: no sort
+  const [sortOrder, setSortOrder] = useState("none"); 
+  const [isLoading, setIsLoading] = useState(true); 
   const navigate = useNavigate();
 
   useEffect(() => {
-    const apps = JSON.parse(localStorage.getItem("installedApps")) || [];
-    setInstalledApps(apps);
+    const loadApps = async () => {
+      setIsLoading(true);
+      await new Promise(resolve => setTimeout(resolve, 300));
+      const apps = JSON.parse(localStorage.getItem("installedApps")) || [];
+      setInstalledApps(apps);
+      setIsLoading(false);
+    };
+    
+    loadApps();
   }, []);
 
   const handleUninstall = (appId, appTitle) => {
@@ -29,26 +43,36 @@ function MyInstallation() {
   };
 
   const handleCardClick = (appId) => {
-    navigate(`/app/${appId}`);
+    setIsLoading(true);
+    setTimeout(() => {
+      navigate(`/app/${appId}`);
+      setIsLoading(false);
+    }, 300);
   };
 
   const handleSortChange = (event) => {
     const order = event.target.value;
     setSortOrder(order);
+    setIsLoading(true);
 
-    let sortedApps = [...installedApps];
-    if (order === "high-low") {
-      sortedApps.sort((a, b) => parseFloat(b.downloads) - parseFloat(a.downloads));
-    } else if (order === "low-high") {
-      sortedApps.sort((a, b) => parseFloat(a.downloads) - parseFloat(b.downloads));
-    }
+    setTimeout(() => {
+      let sortedApps = [...installedApps];
+      if (order === "high-low") {
+        sortedApps.sort((a, b) => parseFloat(b.downloads) - parseFloat(a.downloads));
+      } else if (order === "low-high") {
+        sortedApps.sort((a, b) => parseFloat(a.downloads) - parseFloat(b.downloads));
+      }
 
-    setInstalledApps(sortedApps);
+      setInstalledApps(sortedApps);
+      setIsLoading(false);
+    }, 300);
   };
 
   return (
     <div className="bg-gray-50">
       <Navbar />
+
+      {isLoading && <Loading />}
 
       <div className="max-w-5xl mx-auto px-6 py-10">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8">
@@ -76,7 +100,6 @@ function MyInstallation() {
           )}
         </div>
 
-        
         {installedApps.length === 0 ? (
           <div className="text-center py-16">
             <p className="text-gray-500 text-lg">No apps installed yet</p>
@@ -139,7 +162,7 @@ function MyInstallation() {
       </div>
 
       <ToastContainer />
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 }

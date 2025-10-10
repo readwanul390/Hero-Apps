@@ -18,7 +18,7 @@ function Navbar() {
         <li><Link to="/app/installed">Installation</Link></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">HeroUI</a>
+    <a className="btn btn-ghost text-xl"><Link to="/">HeroUI</Link></a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -28,7 +28,7 @@ function Navbar() {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Contribute</a>
+    <a className="btn" href="https://github.com/readwanul390" target="_blank">Contribute</a>
   </div>
 </div>
     </div>

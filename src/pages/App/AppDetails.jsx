@@ -4,6 +4,7 @@ import { FaDownload, FaStar } from "react-icons/fa6";
 import Navbar from "../../components/Navbar/Navbar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { FaRegThumbsUp } from "react-icons/fa";
 import {
   BarChart,
   Bar,
@@ -76,22 +77,26 @@ function AppDetails() {
             <span className="text-blue-600 font-medium">{app.companyName}</span>
           </p>
 
-          {/* Stats Row */}
+         
           <div className="flex flex-wrap items-center gap-6 text-gray-700 font-medium">
-            <div className="flex items-center gap-2 text-green-600">
+            <div className="flex items-center gap-2 text-green-600 flex-col">
               <FaDownload />
-              <span>{app.downloads} Downloads</span>
+              <p>Downloads</p>
+              <span>{app.downloads}</span>
             </div>
-            <div className="flex items-center gap-2 text-yellow-500">
+            <div className="flex items-center gap-2 text-yellow-500 flex-col">
               <FaStar />
-              <span>{app.ratingAvg} / 5</span>
+              <p>Average Rating</p>
+              <span>{app.ratingAvg}</span>
             </div>
-            <div className="flex items-center gap-2 text-gray-500">
-              <span>{app.reviews} Reviews</span>
+            <div className="flex items-center gap-2 text-gray-500 flex-col">
+              <FaRegThumbsUp />
+              <p>Total Reviews</p>
+              <span>{app.reviews}</span>
             </div>
           </div>
 
-          {/* Install Button */}
+          
           <button
             onClick={handleInstall}
             disabled={installed}
@@ -107,30 +112,35 @@ function AppDetails() {
       </div>
 
 
-      <div className="mt-10 bg-gray-50 p-6 rounded-2xl shadow">
-        <h2 className="text-xl font-semibold mb-4 text-gray-800">Ratings Distribution</h2>
-        <ResponsiveContainer width="100%" height={250}>
-          <BarChart
-            layout="vertical"
-            data={app.ratings}
-            margin={{ top: 10, right: 30, left: 50, bottom: 0 }}
-          >
-            <XAxis type="number" />
-            <YAxis dataKey="name" type="category" />
-            <Tooltip />
-            <Bar
-              dataKey="count"
-              fill="#FF8811"
-              barSize={25}
-              radius={[5, 5, 5, 5]}
-            />
-          </BarChart>
-        </ResponsiveContainer>
-      </div>
+  <div className="mt-10 bg-gray-50 p-6 rounded-2xl shadow">
+      <h2 className="text-xl font-semibold mb-4 text-gray-800">Ratings</h2>
+      <ResponsiveContainer width="100%" height={250}>
+        <BarChart
+          layout="vertical"
+          data={[...app.ratings].sort((a, b) => {
+            
+            const aNum = parseInt(a.name);
+            const bNum = parseInt(b.name);
+            return bNum - aNum; 
+          })}
+          margin={{ top: 10, right: 30, left: 50, bottom: 0 }}
+        >
+      <XAxis type="number" />
+      <YAxis dataKey="name" type="category" />
+      <Tooltip />
+      <Bar
+        dataKey="count"
+        fill="#FF8811"
+        barSize={25}
+        radius={[0, 0, 0, 0]}
+      />
+    </BarChart>
+  </ResponsiveContainer>
+</div>
 
       <div className="mt-10 bg-white p-6 rounded-2xl shadow">
         <h2 className="text-xl font-semibold mb-4 text-gray-800">
-          About This App
+          Description
         </h2>
         <p className="text-gray-700 leading-relaxed">{app.description}</p>
       </div>

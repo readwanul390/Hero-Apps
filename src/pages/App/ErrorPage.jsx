@@ -2,13 +2,16 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import Erroo from '../../assets/error-404.png';
 import Footer from "../../components/Footer/Footer";
+import Navbar from "../../components/Navbar/Navbar";
 
 
 function ErrorPage() {
   const navigate = useNavigate();
 
   return (
-    <div className="h-screen flex flex-col items-center justify-center bg-gray-50 text-center">
+    <div>
+      <Navbar></Navbar>
+      <div className="h-screen flex flex-col items-center justify-center bg-gray-50 text-center">
       <img src={Erroo} alt=""  className="mt-[100px]"/>
       <h1 className="text-6xl font-bold text-blue-600 mb-4">404</h1>
       <h2 className="text-2xl font-semibold text-gray-800 mb-2">
@@ -25,6 +28,8 @@ function ErrorPage() {
       </button>
       <Footer></Footer>
     </div>
+    </div>
+    
   );
 }
 
