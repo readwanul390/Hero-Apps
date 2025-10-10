@@ -69,7 +69,7 @@ function MyInstallation() {
   };
 
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-50 md:w-auto w-full">
       <Navbar />
 
       {isLoading && <Loading />}
@@ -119,10 +119,10 @@ function MyInstallation() {
             {installedApps.map((app) => (
               <div
                 key={app.id}
-                className="flex items-center justify-between bg-white shadow-sm border border-gray-100 rounded-lg p-4 hover:shadow-md transition"
+                className="flex items-center justify-between bg-white shadow-sm border border-gray-100 rounded-lg md:p-4 hover:shadow-md transition md:w-auto w-full"
               >
                 <div
-                  className="flex items-center gap-4 cursor-pointer"
+                  className="flex items-center md:gap-4 cursor-pointer gap-2 "
                   onClick={() => handleCardClick(app.id)}
                 >
                   <img
@@ -150,7 +150,7 @@ function MyInstallation() {
 
                 <button
                   onClick={() => handleUninstall(app.id, app.title)}
-                  className="px-4 py-2 bg-emerald-500 text-white rounded-md hover:bg-emerald-600 transition flex items-center gap-2"
+                  className="md:px-4 md:py-2 bg-emerald-500 text-white rounded-md hover:bg-emerald-600 transition flex items-center gap-2 p-1"
                 >
                   <FaTrash className="text-sm" />
                   Uninstall
