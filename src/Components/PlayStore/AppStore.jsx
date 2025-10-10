@@ -33,7 +33,7 @@ function AppStore() {
       
       <Navbar></Navbar>
       <p className="text-4xl text-center">App Store</p>
-      <div className="grid grid-cols-2 gap-4 p-4 lg:w-[500px] md:mx-auto">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-4 p-4 lg:w-[500px] md:mx-auto">
         {apps.slice(0, 2).map((app, index) => (
           <Link to={`/app/${app.id}`} key={index}>
             <div className="card bg-base-100 w-auto shadow-sm cursor-pointer hover:shadow-lg transition">
