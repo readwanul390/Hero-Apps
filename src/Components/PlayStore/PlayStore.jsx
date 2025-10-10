@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaDownload, FaStar } from "react-icons/fa"; 
 import { Link } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 function PlayStore() {
   const [apps, setApps] = useState([]);
@@ -43,6 +44,7 @@ function PlayStore() {
           Show All
         </button>
       </Link>
+      <Footer></Footer>
     </div>
   );
 }
