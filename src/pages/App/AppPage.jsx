@@ -5,7 +5,6 @@ import { FaStar } from "react-icons/fa6";
 import { Link, useNavigate } from "react-router-dom"; 
 import Footer from '../../components/Footer/Footer';
 
-// Loading Component
 const Loading = () => (
   <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-30 z-50">
     <div className="w-16 h-16 border-4 border-blue-600 border-dashed rounded-full animate-spin"></div>
@@ -19,7 +18,6 @@ function AppPage() {
   const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
 
-  // Fetch data initially
   useEffect(() => {
     setIsLoading(true);
     fetch("/data.json")
@@ -31,22 +29,22 @@ function AppPage() {
       .finally(() => setIsLoading(false));
   }, []);
 
-  // Search handler
+ 
   const handleSearch = (query) => {
     setSearchQuery(query);
     setIsLoading(true);
 
-    // Simulate async search
+    
     setTimeout(() => {
       const results = apps.filter(app =>
         app.title.toLowerCase().includes(query.toLowerCase())
       );
       setFilteredApps(results);
       setIsLoading(false);
-    }, 500); // simulate network delay
+    }, 500); 
   };
 
-  // Navigation with loader
+  
   const handleNavigate = (url) => {
     setIsLoading(true);
     setTimeout(() => {
