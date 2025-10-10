@@ -57,9 +57,9 @@ function AppDetails() {
     <div className="p-6 w-full mx-auto">
       <Navbar />
 
-      {/* App Header Section */}
+     
       <div className="flex flex-col md:flex-row items-start gap-8 mt-6">
-        {/* 🖼️ App Image */}
+
         <div className="md:w-1/3">
           <img
             src={app.image}
@@ -68,7 +68,7 @@ function AppDetails() {
           />
         </div>
 
-        {/* ℹ️ App Information */}
+       
         <div className="md:w-2/3 space-y-4">
           <h1 className="text-3xl font-bold text-gray-900">{app.title}</h1>
           <p className="text-gray-600">
@@ -106,7 +106,7 @@ function AppDetails() {
         </div>
       </div>
 
-      {/* 📊 Ratings Chart */}
+
       <div className="mt-10 bg-gray-50 p-6 rounded-2xl shadow">
         <h2 className="text-xl font-semibold mb-4 text-gray-800">Ratings Distribution</h2>
         <ResponsiveContainer width="100%" height={250}>
@@ -128,7 +128,6 @@ function AppDetails() {
         </ResponsiveContainer>
       </div>
 
-      {/* 📝 Description Section */}
       <div className="mt-10 bg-white p-6 rounded-2xl shadow">
         <h2 className="text-xl font-semibold mb-4 text-gray-800">
           About This App
