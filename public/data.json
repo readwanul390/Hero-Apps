@@ -1,0 +1,384 @@
+[
+  {
+    "id": 1,
+    "title": "Forest: Focus For Productivity",
+    "companyName": "SeekrTech",
+    "description": "Stay focused by growing virtual trees. Perfect for beating phone addiction and improving time management.",
+    "size": 45,
+    "downloads": "8M",
+    "reviews": 12000,
+    "ratingAvg": 4.9,
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 7300 }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "SmPlan: ToDo List With Reminder",
+    "companyName": "Smart Devs",
+    "description": "Organize your daily tasks and get reminders that keep you productive throughout the day.",
+    "size": 38,
+    "downloads": "2M",
+    "reviews": 8700,
+    "ratingAvg": 4.8,
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 4100 }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "FLIP - Focus Timer For Study",
+    "companyName": "Rinasoft",
+    "description": "Track your study sessions and focus time using the FLIP timer. Designed for students.",
+    "size": 42,
+    "downloads": "4M",
+    "reviews": 9800,
+    "ratingAvg": 4.7,
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 4600 }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Pomocat - Cute Pomodoro Timer",
+    "companyName": "Focus Studio",
+    "description": "A cute cat-themed Pomodoro timer that makes focusing fun and rewarding.",
+    "size": 33,
+    "downloads": "9M",
+    "reviews": 8200,
+    "ratingAvg": 4.8,
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=800&q=80",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 3700 }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Time Planner: Schedule & Tasks",
+    "companyName": "TayTech",
+    "description": "Plan, schedule, and manage your daily routine efficiently with smart time blocks.",
+    "size": 40,
+    "downloads": "5M",
+    "reviews": 9100,
+    "ratingAvg": 4.6,
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 3400 }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Morning Habits - Daily Routine",
+    "companyName": "Zenify Labs",
+    "description": "Build morning routines that energize your day with smart reminders and tracking.",
+    "size": 41,
+    "downloads": "9M",
+    "reviews": 6700,
+    "ratingAvg": 4.9,
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 3000 }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Focus Plant: Pomodoro Forest",
+    "companyName": "SeekrTech",
+    "description": "Gamify your focus! Grow cute plants as you stay productive using the Pomodoro technique.",
+    "size": 43,
+    "downloads": "7M",
+    "reviews": 10000,
+    "ratingAvg": 4.8,
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1750785354752-2c234b875cdd?w=600&auto=format&fit=crop&q=80",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 4400 }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Alarmy - Alarm Clock & Sleep",
+    "companyName": "Delight Room",
+    "description": "Smart alarm clock that ensures you wake up by completing fun missions.",
+    "size": 55,
+    "downloads": "9M",
+    "reviews": 11500,
+    "ratingAvg": 4.7,
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 5200 }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Productivity Tracker",
+    "companyName": "Trackify Labs",
+    "description": "Analyze your daily performance and stay consistent with your productivity goals.",
+    "size": 37,
+    "downloads": "5M",
+    "reviews": 6200,
+    "ratingAvg": 4.4,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Daily Goal Setter",
+    "companyName": "Goalify Inc.",
+    "description": "Set, track, and achieve your personal and work goals effortlessly with progress tracking.",
+    "size": 36,
+    "downloads": "3M",
+    "reviews": 5600,
+    "ratingAvg": 4.3,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1506784365847-bbad939e9335?auto=format&fit=crop&w=800&q=80",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 1000 }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Habitica: Gamify Your Tasks",
+    "companyName": "HabitRPG Inc.",
+    "description": "Turn your life into a game! Complete tasks to level up your avatar and unlock rewards.",
+    "size": 52,
+    "downloads": "7M",
+    "reviews": 15000,
+    "ratingAvg": 4.6,
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 6700 }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Focus@Will: Music for Focus",
+    "companyName": "Dulcetta Inc.",
+    "description": "Neuroscience-based music to boost concentration and improve productivity while working.",
+    "size": 48,
+    "downloads": "4M",
+    "reviews": 7800,
+    "ratingAvg": 4.5,
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=800&q=80",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 2500 }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Toggl Track: Time Tracker",
+    "companyName": "Toggl OÜ",
+    "description": "Simple yet powerful time tracking for freelancers and teams to analyze productivity.",
+    "size": 44,
+    "downloads": "6M",
+    "reviews": 9500,
+    "ratingAvg": 4.7,
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 3800 }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Brain Focus Productivity Timer",
+    "companyName": "Brain Focused Apps",
+    "description": "Pomodoro technique timer with detailed statistics to track your productive hours.",
+    "size": 35,
+    "downloads": "5M",
+    "reviews": 8900,
+    "ratingAvg": 4.6,
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&q=80",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 3200 }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Notion: Notes & Organize",
+    "companyName": "Notion Labs",
+    "description": "All-in-one workspace for notes, tasks, wikis, and databases. Perfect for productivity.",
+    "size": 62,
+    "downloads": "12M",
+    "reviews": 18500,
+    "ratingAvg": 4.8,
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=800&q=80",
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 5500 },
+      { "name": "5 star", "count": 8800 }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "TickTick: To Do List & Calendar",
+    "companyName": "Appest Inc.",
+    "description": "Powerful task manager with calendar, reminders, and collaboration features built-in.",
+    "size": 46,
+    "downloads": "8M",
+    "reviews": 11200,
+    "ratingAvg": 4.7,
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=800&q=80",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 4200 }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Freedom: Website Blocker",
+    "companyName": "Freedom Inc.",
+    "description": "Block distracting websites and apps across all your devices to maintain focus.",
+    "size": 39,
+    "downloads": "4M",
+    "reviews": 6400,
+    "ratingAvg": 4.5,
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Streaks: Habit Tracker",
+    "companyName": "Crunchy Bagel",
+    "description": "Build good habits by tracking your daily streak. Simple, elegant, and effective.",
+    "size": 29,
+    "downloads": "3M",
+    "reviews": 7300,
+    "ratingAvg": 4.8,
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1494883759339-0b042055a4ee?auto=format&fit=crop&w=800&q=80",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 3200 }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "RescueTime: Time Manager",
+    "companyName": "RescueTime Inc.",
+    "description": "Automatic time tracking to understand your daily habits and improve productivity.",
+    "size": 41,
+    "downloads": "5M",
+    "reviews": 8100,
+    "ratingAvg": 4.4,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 2500 }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Evernote: Note Organizer",
+    "companyName": "Evernote Corporation",
+    "description": "Capture ideas, organize notes, and manage projects all in one powerful app.",
+    "size": 58,
+    "downloads": "10M",
+    "reviews": 14200,
+    "ratingAvg": 4.5,
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=800&q=80",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 5500 }
+    ]
+  }
+
+  
+]
