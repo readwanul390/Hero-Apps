@@ -16,7 +16,7 @@ function PlayStore() {
     <div className="w-full">
       <Navbar></Navbar>
       <p className="text-4xl text-center">Play Store</p>
-      <div className="grid grid-cols-4 gap-4 p-4">
+      <div className="grid md:grid-cols-4 gap-4 p-4 grid-cols-1">
         {apps.slice(0, 4).map((app, index) => (
           <Link to={`/app/${app.id}`} key={index}>
             <div className="card bg-base-100 w-auto shadow-sm cursor-pointer hover:shadow-lg transition">
