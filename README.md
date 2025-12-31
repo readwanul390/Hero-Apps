@@ -5,6 +5,9 @@ Hero Apps is a modern web application showcasing a collection of applications de
 It allows users to browse, search, sort, and manage installed apps. The application provides a smooth 
 and interactive experience with loading animations, error handling, and easy navigation.
 
+## Link
+live link: https://react-hero-apps.netlify.app/
+
 ## Features
 - Browse all available apps
 - Search apps by name
