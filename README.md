@@ -27,3 +27,32 @@ live link: https://react-hero-apps.netlify.app/
 - **LocalStorage** - Persistent storage for installed apps
 - **JavaScript (ES6+)** - Core programming language
 - **HTML5 & CSS3** - Markup and styling
+
+## 🖼 Screenshot ![Hero-Apps](./screenshot.png)
+
+## 📦 Dependencies
+
+- react
+- react-dom
+- react-router-dom
+- react-icons
+- react-toastify
+- tailwindcss
+
+## ▶️ Run the Project Locally
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/readwanul390/hero-apps.git
+2️⃣ Navigate to the project directory
+cd hero-apps
+3️⃣ Install dependencies
+npm install
+4️⃣ Start the development server
+bash
+
+npm run dev
+5️⃣ Open in browser
+Visit:
+http://localhost:5173
+
